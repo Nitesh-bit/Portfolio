@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Nitesh Chaudhary - Personal Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/55087be69d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            class="logo-container"
+            src="images/Profile-logo.png"
+            alt="Profile-Logo"
+          />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>React.JS developer</p>
+          <h1>
+            Hi, I am <span>Nitesh</span> Chaudhary <br />
+            from India
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/Profile.jpg" alt="Me" />
+          </div>
+          <div class="about-col-2">
+            <div class="section-title">
+              <h1 class="sub-title">About Me</h1>
+              <i class="fas fa-user-tie"></i>
+            </div>
+            <p>
+              <hr>
+              Hello there! I'm Nitesh Chaudhary, a passionate learner with a keen interest in web development, 
+              particularly in the realm of front-end technologies. Currently, my journey is immersed in mastering React.js 
+              and its ecosystem, exploring tools like Redux for state management, React Router for navigation. 
+              <br>With a background of 2.5 years at Tata Consultancy Services, I delved into the world of software testing, 
+              primarily focusing on functional and non-functional testing. My role involved the meticulous testing of React-based 
+              applications, both manually and through automation. Leveraging tools like Selenium, I crafted robust test suites using 
+              Java along with TestNG and the Cucumber framework, ensuring the seamless performance of web applications. <br>
+Driven by a desire to transition into a front-end developer role, I bring a unique blend of testing expertise and a burgeoning 
+passion for crafting engaging user experiences. My journey is fueled by curiosity, dedication, and a relentless pursuit of excellence 
+in the ever-evolving landscape of web development. <br>
+
+Join me as I continue to learn, grow, and contribute to the dynamic world of front-end development!
+<hr>
+            </p>
+
+            <div class="tab-titles">
+              <!-- <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p> -->
+              <p class="tab-links active-link" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <!-- <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li>
+                  <span>App Development</span><br />Designing Web/App interfaces
+                </li>
+              </ul>
+            </div> -->
+            <div class="tab-contents active-tab" id="experience">
+              <ul>
+                <li><span>2022-2024</span><br />System Engineer @TCS</li>
+                <li>
+                  <span>2021-2022</span><br />Assistant System Engineer @TCS
+                </li>
+                <!-- <li>
+                  <span>2016-2017</span><br />Designing Web/App interfaces
+                </li> -->
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>B.Tech (I.T.)</span><br />ADGITM</li>
+                <li><span>XIIth</span><br />Dr. Rajendra Prasad Sr. Sec. School</li>
+                <li><span>Xth</span><br />Preet Public Sr. Sec. School</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- skills -->
+    <div id="skills">
+      <div class="container">
+
+        <div class="section-title">
+          <h1 class="sub-title">My Skills</h1>
+          <i class="fas fa-headphones"></i>
+        </div>
+      
+        <div class="skills-list">
+          <!-- <div>
+            <i class="fab fa-react"></i>
+            <h2>React.js</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+              recusandae velit dolorum sapiente perspiciatis similique,
+              consectetur quia libero animi! Aliquam nisi facere, rem aliquid
+              dolorum optio quas delectus consectetur officiis!
+            </p>
+            <a href="#">Learn more</a>
+          </div> -->
+          <div>
+            <i class="fab fa-react"></i>
+            <h2>React.js</h2>
+          </div>
+          <div>
+            <i class="fab fa-js"></i>
+            <h2>JavaScript</h2>
+          </div>
+          <div>
+            <i class="fab fa-html5"></i>
+            <h2>HTML</h2>
+          </div>
+          <div>
+            <i class="fab fa-css3-alt"></i>
+            <h2>CSS</h2>
+          </div>
+          <div>
+            <i class="fab fa-java"></i>
+            <h2>Selenium with Java</h2>
+          </div>
+          <div>
+            <i class="fas fa-laptop-code"></i>
+            <h2>C++</h2>
+          </div>
+          <div>
+            <i class="fas fa-sitemap"></i>
+            <h2>Data Structures & Algorithms</h2>
+          </div>
+          <div>
+            <i class="fab fa-git-alt"></i>
+            <h2>Git</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- portfolio -->
+    <div id="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <h1 class="sub-title">My Work</h1>
+          <i class="fas fa-briefcase"></i>
+        </div>
+        
+
+        <div class="work-list">
+          <div class="work">
+            <img src="images/Work1.PNG">
+            <div class="layer">
+              <h3>useMovie App</h3>
+              <p>
+                This is an app where users can find the movie lists and view the details of the movie by clicking on any of them. Also, the user can give personalized star ratings to the movies that the user has already seen. After that users can add that movie to their watched-list for reviewing it later.
+              </p>
+              <div class="project-links">
+                  <a href="https://usemovie-12.netlify.app/" target="_blank"><i class="fas fa-link"></i></a>
+                  <a href="https://github.com/Nitesh-bit/useMovie" target="_blank"><i class="fab fa-github-alt"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Work2.PNG" />
+            <div class="layer">
+              <h3>Travel List App</h3>
+              <p>
+                This project is a simple packing list application built with React. Users can add items they need to pack for a trip,
+                 mark items as packed or unpacked, delete items, and clear the entire list. The application utilizes React hooks for
+                  state management and localStorage for persisting data across sessions. 
+                Overall, the project provides a user-friendly interface for managing packing lists efficiently.
+              </p>
+              <div class="project-links">
+                <a href="https://travel-list-1210.netlify.app/" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/Nitesh-bit/Travel-list-app" target="_blank"><i class="fab fa-github-alt"></i></a>
+            </div>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/Work3.PNG" />
+            <div class="layer">
+              <h3>Keeper App</h3>
+              <p>
+                This app is a clone of Google's keep app. It is for taking the notes.
+              </p>
+              <div class="project-links">
+                <a href="https://nitesh-keeper-app.netlify.app/" target="_blank"><i class="fas fa-link"></i></a>
+                <a href="https://github.com/Nitesh-bit/keeper-app-" target="_blank"><i class="fab fa-github-alt"></i></a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <a href="" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- contact -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+
+            <div class="section-title">
+              <h1 class="sub-title">Contact Me</h1>
+              <i class="fas fa-address-book"></i>
+            </div>
+            
+            <p><i class="fas fa-paper-plane"></i> chaudharynitesh696@gmail.com</p>
+            <p><i class="fas fa-phone-square-alt"></i> +91 9871839044</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/chaudhary-nitesh/" target="_blank">
+                <i class="fab fa-linkedin"></i></a>
+              <a href="https://github.com/Nitesh-bit" target="_blank"
+                ><i class="fab fa-github"></i></i
+              ></a>
+              <a href="https://leetcode.com/Nitesh-12/" target="_blank"
+                ><i class="fas fa-code"></i
+              ></a>
+              <a href="https://www.instagram.com/niteshh_chaudhary/?next=%2F" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+            <a href="images/Nitesh RESUME.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Messagge"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © Nitesh. Made with <i class="fas fa-heart"></i> by me</p>
+      </div>
+    </div>
+
+    <script>
+      let tablinks = document.getElementsByClassName("tab-links");
+      let tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      let sidemenu = document.getElementById("sidemenu");
+
+      function openMenu() {
+        sidemenu.style.right = "0";
+      }
+      function closeMenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbwEjWt5WmV92eutOhQiiMT1e3oNnoLfNf9vmdwvyFkgzyAH0BJSQ0q9L1p8T1fAjHKw/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      const msg = document.getElementById("msg");
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => {
+            msg.innerHTML = "Message sent successfully";
+            setTimeout(function () {
+              msg.innerHTML = "";
+            }, 5000);
+            form.reset();
+          })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
